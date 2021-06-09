@@ -26,5 +26,6 @@ namespace Meeting_Management.Models
         }
     
         public virtual DbSet<CATEGORY> CATEGORies { get; set; }
+        public object AspNetUsers { get; internal set; }
     }
 }
